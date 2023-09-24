@@ -27,7 +27,6 @@
 
 #### repro-package ####
 if (!requireNamespace("devtools")) install.packages("devtools")
-if (!requireNamespace("repro")) devtools::install_github("aaronpeikert/repro")
 # restart your R-Session
 
 #### Git/Make/Docker ####
