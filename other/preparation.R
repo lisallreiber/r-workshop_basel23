@@ -19,11 +19,7 @@ blog_badge <- badgr::get_badge(
 
 
 # Set underlying badge link (where the badge-click will take you)
-<<<<<<< HEAD
-link <- "https://github.com/lisallreiber/R-Workshop/raw/master/assets/slides/00_R-Workshop.pdf"
-=======
-link <- "https://gather.town/app/RL6StuU0Rtlvtqp9/R-workshop"
->>>>>>> 099c6ec0e5e5152e0a966f304a757fa5f7ce65af
+link <- "https://github.com/lisallreiber/R-Workshop/raw/main/assets/slides/00_R-Workshop.pdf"
 
 slides_badge <- badgr::get_badge(
       label = "workshop slides",   # left-side text
