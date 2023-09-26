@@ -9,4 +9,4 @@ You can right-click and save [this link](https://github.com/lisallreiber/R-Works
 
 **Instructions**
 
-Here you can find the [03 Meta-Viz: Coding in R Markdown Hands-on instructions](https://github.com/lisallreiber/R-Workshop/blob/main/03_MetaViz/03_instructions.html)  
+Here you can find the [03 Meta-Viz: Coding in R Markdown Hands-on instructions](https://github.com/lisallreiber/R-Workshop/blob/main/03_MetaViz/03_instructions.md)  

@@ -32,20 +32,24 @@ If you arrive early (~10min) I can help with any technical problems that you hav
 
 ### Thursday
 
-14:00 - 14:30 [1_1: Introduction](https://lisallreiber.github.io/R-Workshop/day1_1)\
-14:30 - 15:15 [1_2: RStudio Workflows & R-Markdown](https://lisallreiber.github.io/R-Workshop/day1_2)\
-15:15 - 15:30 Break\
+14:00 - 14:40 [1_1: Welcome & Setup](https://lisallreiber.github.io/R-Workshop/day1_1)\
+05:00 Min Break\
+14:45 - 15:25 [1_2: R-Markdown Intro](https://lisallreiber.github.io/R-Workshop/day1_2)\
+05:00 Min Break\
 15:30 - 16:30 [1_3: Meta-Viz with ggplot2](https://lisallreiber.github.io/R-Workshop/day1_3)\
-16:35 - 16:45 Break\
-16:45 - 17:45 [1_4: R Markdown: website features](https://lisallreiber.github.io/R-Workshop/day1_4)
+15:00 Min Break\
+16:45 - 17:45 [1_4: R Markdown: website features](https://lisallreiber.github.io/R-Workshop/day1_4)\
 17:45 - 18:00 Wrap-up
 
 ### Friday
 
-09:00 - 10:30 [2_1: Git + GithubPages](https://lisallreiber.github.io/R-Workshop/day2_1)\
-10:30 - 11:00 Break\
-11:00 - 12:30 [2_2: Putting all pieces together](https://lisallreiber.github.io/R-Workshop/day2_2)\
-12:30 - 13:00 [2_3: Wrap-up](Nhttps://lisallreiber.github.io/R-Workshop/day2_2)
+09:00 - 09:55 [2_1: Git + Github](https://lisallreiber.github.io/R-Workshop/day2_1)\
+05:00 Min Break\
+10:00 - 10:45 [2_2: Github Pages](https://lisallreiber.github.io/R-Workshop/day2_1)\
+15:00 Min Break\
+11:00 - 12:25 [2_3: Putting all pieces together](https://lisallreiber.github.io/R-Workshop/day2_2)\
+05:00 Min Break\
+12:30 - 13:00 [2_4: Wrap-up](Nhttps://lisallreiber.github.io/R-Workshop/day2_2)
 
 ## Overview
 
@@ -69,8 +73,6 @@ During the workshop we will visit the different building blocks from which repro
 -   Further materials to dig deeper into the workshop topics in the future
 
 ## Feedback and communication
-
-<https://gather.town/app/RL6StuU0Rtlvtqp9/R-workshop> is our virtual meeting room at Gather.town. We will use the workshop area for all-group input sessions and the group-table areas for working in small groups. Don't worry if you are not familiar with Gather.town yet, we will explore it a together at the beginning of the workshop.
 
 [Issues](https://github.com/lisallreiber/R-Workshop/issues) \<-- all are encouraged to open issues as we go. This is actually tremendously helpful to me! Examples of issue-worthy thoughts:
 

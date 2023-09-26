@@ -9,4 +9,4 @@ You can right-click and save [this link](https://github.com/lisallreiber/R-Works
 
 **Instructions**
 
-Here you can find the [02 R Markdown Website Features instructions](https://github.com/lisallreiber/R-Workshop/blob/main/04_RMarkdown-Webstack/04_instructions.html)  
+Here you can find the [02 R Markdown Website Features instructions](https://github.com/lisallreiber/R-Workshop/blob/main/04_RMarkdown-Webstack/04_instructions.md)  
