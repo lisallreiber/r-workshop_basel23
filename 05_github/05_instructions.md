@@ -14,13 +14,13 @@ For help, check out: [How to create a new repository?  ](https://docs.github.com
 <br></br>
 
 
-**Hands-on 1: Connect Repo to RStudio Cloud**
+**Hands-on 1: Connect Repo to Posit Cloud**
 
 ---
 
-1. In your cloud, click on "New Project" > From GitHub Repository (for help: [How to connect RStudio Cloud with Git](https://maurolepore.github.io/cloudgithub/)
+1. In your cloud, click on "New Project" > From GitHub Repository (for help: [How to connect Posit Cloud with GitHub](https://posit.cloud/learn/guide#rstudio-projects)
 )
-2. Open the project and locate the Git tab in the top left area of the RStudio Window
+2. Open the project and locate the Git tab in the top right area of the RStudio Window
 3. What could the green and blue arrows stand for?
 4. Create a new script in RStudio and save it to the project folder.
 5. Do you notice a difference in the Git tab?
@@ -44,10 +44,10 @@ For help, check out: [How to create a new repository?  ](https://docs.github.com
 In this exercise we forked the template repo of the workshop and learned about GitHub Pages.
 
 
-1. Copy the r-workshop template repo into your own github account
+1. Copy the R-workshop template repo into your own Github account
 2. Go to settings: pages etc
 3. Now its time to make this project your own and practise updating it
-4. Create a new project in RStudio cloud from a github repository and provide the URL of your repo (make sure it is in your github and not the original R-Workshop template repo)
+4. Create a new project in Posit cloud from a Github repository and provide the URL of your repo (make sure it is in your github and not the original R-Workshop template repo)
 5. In RStudio, find and open the _site.yml file (YAML remember)? Change title in navigation bar to your own (maybe favourite food?)
 6. Knit the index.Rmd file
 7. It the RStudio Git Tab (top-right corner), add the changed files and commit them (like in the exercise before)
@@ -68,7 +68,7 @@ In this exercise we forked the template repo of the workshop and learned about G
 
 ---
 
-1. in Rstudio Cloud: DELETE all files in the docs/ folder
+1. in Posit Cloud: DELETE all files in the docs/ folder
 2. Commit the changes
 3. Push them
 4. What do you think will happen to you website? Go check --> 
