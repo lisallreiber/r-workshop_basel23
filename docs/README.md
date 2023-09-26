@@ -1,12 +1,12 @@
 # R-Workshop
 
-[![Slides](https://img.shields.io/badge/workshop_slides-get-008900?style=flat&labelColor=black)](https://github.com/lisallreiber/R-Workshop/raw/main/assets/slides/00_R-Workshop.pdf)
+[![Slides](https://img.shields.io/badge/workshop_slides-get-008900?style=flat&labelColor=black)](https://github.com/lisallreiber/r-workshop_basel23/raw/main/assets/slides/00_R-Workshop.pdf)
 
 ### University of Basel
 
 by Lisa Reiber
 
-[lisallreiber.github.io/R-Workshop/](https://lisallreiber.github.io/R-Workshop/) \<-- The One True URL that links to everything!
+[lisallreiber.github.io/r-workshop_basel23/](https://lisallreiber.github.io/r-workshop_basel23) \<-- The One True URL that links to everything!
 
 :spiral_calendar: September 28 and 29, 2023\
 :alarm_clock: 14:00 - 18:00 \| 09:00 - 13:00\
@@ -19,11 +19,11 @@ by Lisa Reiber
 TL;DR (friendly version below):
 
 -   Make sure you have a stable internet connection
--   install the following things (R\|RStudio\|Git\|RStudioCloud): Go [here](https://github.com/lisallreiber/R-Workshop/blob/master/00_prep.R) for details or [here](https://happygitwithr.com/workshops.html#pre-workshop-set-up) for help.
+-   install the following things (R\|RStudio\|Git\|PositCloud): Go [here](https://github.com/lisallreiber/r-workshop_basel23/blob/master/00_prep.R) for details or [here](https://happygitwithr.com/workshops.html#pre-workshop-set-up) for help.
 -   There will be (a reminder to make sure you prepare) coffee
 
 28th September is coming closer, and I am excited to have you. The workshop will give you a hands-on version of a reproducible website that communicates data availability with tables and visualization (available [here](https://lisallreiber.github.io/GeneAnalysis/p1_0101_describe_plots.html)).\
-However, we need you to make a few preparations so that we can start right away. Please make sure you have a stable internet connection and a second display to work with. It will make your life a lot easier if you can interact with us one one screen and work with R in another. Also make sure you install all the required pieces of software. We will be using RStudioCloud for the exercises during the workshop, but if something crashes or if you want to keep working with the things you learned in the workshop I would recommend installing the software prior to the workshop. To do so successfully requires some time and admin rights on your computer. If you're ready, go to and follow the steps: <https://github.com/lisallreiber/R-Workshop/blob/master/00_prep.R> If you get stuck, this website will probably [help](https://happygitwithr.com/workshops.html#pre-workshop-set-up).\
+However, we need you to make a few preparations so that we can start right away. Please make sure you have a stable internet connection and a second display to work with. It will make your life a lot easier if you can interact with us one one screen and work with R in another. Also make sure you install all the required pieces of software. We will be using RStudioCloud for the exercises during the workshop, but if something crashes or if you want to keep working with the things you learned in the workshop I would recommend installing the software prior to the workshop. To do so successfully requires some time and admin rights on your computer. If you're ready, go to and follow the steps: <https://github.com/lisallreiber/r-workshop_basel23/blob/master/00_prep.R> If you get stuck, this website will probably [help](https://happygitwithr.com/workshops.html#pre-workshop-set-up).\
 Please use your Github account to set up a free [RStudio Cloud](https://rstudio.cloud/plans/free) account as well. We will use RStudio Cloud for hand-on exercises during the workshop. It is a nice way to prevent us from spending hours on fixing bugs due to missing packages etc.
 
 If you arrive early (~10min) I can help with any technical problems that you have encountered.
@@ -32,24 +32,24 @@ If you arrive early (~10min) I can help with any technical problems that you hav
 
 ### Thursday
 
-14:00 - 14:40 [1_1: Welcome & Setup](https://lisallreiber.github.io/R-Workshop/day1_1)\
+14:00 - 14:40 [1_1: Welcome & Setup](https://lisallreiber.github.io/r-workshop_basel23/day1_1)\
 05:00 Min Break\
-14:45 - 15:25 [1_2: R-Markdown Intro](https://lisallreiber.github.io/R-Workshop/day1_2)\
+14:45 - 15:25 [1_2: R-Markdown Intro](https://lisallreiber.github.io/r-workshop_basel23/day1_2)\
 05:00 Min Break\
-15:30 - 16:30 [1_3: Meta-Viz with ggplot2](https://lisallreiber.github.io/R-Workshop/day1_3)\
+15:30 - 16:30 [1_3: Meta-Viz with ggplot2](https://lisallreiber.github.io/r-workshop_basel23/day1_3)\
 15:00 Min Break\
-16:45 - 17:45 [1_4: R Markdown: website features](https://lisallreiber.github.io/R-Workshop/day1_4)\
+16:45 - 17:45 [1_4: R Markdown: website features](https://lisallreiber.github.io/r-workshop_basel23/day1_4)\
 17:45 - 18:00 Wrap-up
 
 ### Friday
 
-09:00 - 09:55 [2_1: Git + Github](https://lisallreiber.github.io/R-Workshop/day2_1)\
+09:00 - 09:55 [2_1: Git + Github](https://lisallreiber.github.io/r-workshop_basel23/day2_1)\
 05:00 Min Break\
-10:00 - 10:45 [2_2: Github Pages](https://lisallreiber.github.io/R-Workshop/day2_1)\
+10:00 - 10:45 [2_2: Github Pages](https://lisallreiber.github.io/r-workshop_basel23/day2_1)\
 15:00 Min Break\
-11:00 - 12:25 [2_3: Putting all pieces together](https://lisallreiber.github.io/R-Workshop/day2_2)\
+11:00 - 12:25 [2_3: Putting all pieces together](https://lisallreiber.github.io/r-workshop_basel23/day2_2)\
 05:00 Min Break\
-12:30 - 13:00 [2_4: Wrap-up](Nhttps://lisallreiber.github.io/R-Workshop/day2_2)
+12:30 - 13:00 [2_4: Wrap-up](Nhttps://lisallreiber.github.io/r-workshop_basel23/day2_2)
 
 ## Overview
 
@@ -74,7 +74,7 @@ During the workshop we will visit the different building blocks from which repro
 
 ## Feedback and communication
 
-[Issues](https://github.com/lisallreiber/R-Workshop/issues) \<-- all are encouraged to open issues as we go. This is actually tremendously helpful to me! Examples of issue-worthy thoughts:
+[Issues](https://github.com/lisallreiber/r-workshop_basel23/issues) \<-- all are encouraged to open issues as we go. This is actually tremendously helpful to me! Examples of issue-worthy thoughts:
 
 -   Glitches in the instructions or materials that I need to fix, for current workshop or future
 -   Missing content that I point to
@@ -143,8 +143,8 @@ Here you can find a list of resources specifically to the topics we cover in the
 
 ## Links that are handy to us
 
--   GitHub repo: <https://github.com/lisallreiber/R-Workshop>
--   GitHub Pages site, served from that repo: <https://lisallreiber.github.io/R-Workshop/>
+-   GitHub repo: <https://github.com/lisallreiber/r-workshop_basel23>
+-   GitHub Pages site, served from that repo: <https://lisallreiber.github.io/r-workshop_basel23/>
 
 ## Credits
 
