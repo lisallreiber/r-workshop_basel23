@@ -32,24 +32,24 @@ If you arrive early (~10min) I can help with any technical problems that you hav
 
 ### Thursday
 
-14:00 - 14:40 [1_1: Welcome & Setup](https://lisallreiber.github.io/r-workshop_basel23/day1_1)\
+14:00 - 14:40 [Day 1: Welcome & Setup](https://lisallreiber.github.io/r-workshop_basel23/day1_1)\
 05:00 Min Break\
-14:45 - 15:25 [1_2: R-Markdown Intro](https://lisallreiber.github.io/r-workshop_basel23/day1_2)\
+14:45 - 15:25 [Day 1: R-Markdown - Intro](https://lisallreiber.github.io/r-workshop_basel23/day1_2)\
 05:00 Min Break\
-15:30 - 16:30 [1_3: Meta-Viz with ggplot2](https://lisallreiber.github.io/r-workshop_basel23/day1_3)\
+15:30 - 16:30 [Day 1: Meta-Viz with ggplot2](https://lisallreiber.github.io/r-workshop_basel23/day1_3)\
 15:00 Min Break\
-16:45 - 17:45 [1_4: R Markdown: website features](https://lisallreiber.github.io/r-workshop_basel23/day1_4)\
+16:45 - 17:45 [Day 1: R Markdown - Website Features](https://lisallreiber.github.io/r-workshop_basel23/day1_4)\
 17:45 - 18:00 Wrap-up
 
 ### Friday
 
-09:00 - 09:55 [2_1: Git + Github](https://lisallreiber.github.io/r-workshop_basel23/day2_1)\
+09:00 - 09:55 [Day 2: Git + Github](https://lisallreiber.github.io/r-workshop_basel23/day2_1)\
 05:00 Min Break\
-10:00 - 10:45 [2_2: Github Pages](https://lisallreiber.github.io/r-workshop_basel23/day2_1)\
+10:00 - 10:45 [Day 2: Github Pages](https://lisallreiber.github.io/r-workshop_basel23/day2_1)\
 15:00 Min Break\
-11:00 - 12:25 [2_3: Putting all pieces together](https://lisallreiber.github.io/r-workshop_basel23/day2_2)\
+11:00 - 12:25 [Day 2: Putting all pieces together](https://lisallreiber.github.io/r-workshop_basel23/day2_2)\
 05:00 Min Break\
-12:30 - 13:00 [2_4: Wrap-up](Nhttps://lisallreiber.github.io/r-workshop_basel23/day2_2)
+12:30 - 13:00 [Day 2: Wrap-up](Nhttps://lisallreiber.github.io/r-workshop_basel23/day2_2)
 
 ## Overview
 
