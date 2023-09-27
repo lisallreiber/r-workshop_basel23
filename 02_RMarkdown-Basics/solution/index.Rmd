@@ -1,5 +1,7 @@
 ---
-pagetitle: My-Project Title
+pagetitle: "Index"
+output: html_document
+date: "`r Sys.Date()`"
 ---
 
 # My-Project Name
