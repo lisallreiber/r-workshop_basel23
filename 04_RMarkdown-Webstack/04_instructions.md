@@ -35,18 +35,18 @@ subtitle: "How to add website features and style them"
 
 ### Activity II
 
-Now its time to connect our websites! For this you need the following files in your main project directory:
+Now its time to connect our websites! For this you need the following files in a main project directory (for example a folder called my-website in 04_RMarkdown-Webstack):
 
 -   an index.Rmd 
 -   your meta-viz.Rmd 
 -   a folder called docs/\
--   a \_site.R file where your YAML settings are defined
+-   a \_site.yml file where your YAML settings are defined
 
-1.  copy all your R Markdowns that you want to link (e.g. your index.Rmd and meta-viz.Rmd) into the main project folder (if it isn't already there)
+1.  copy all your R Markdowns that you want to link (e.g. your index.Rmd and meta-viz.Rmd) into your website folder (if it isn't already there)
 2.  make sure there is a docs/ folder
-3.  copy the `_site.yml` file from the 04_RMarkdown-Webstack/solutions folder and save it in the main project folder as well
-4.  adapt the `_site.yml` file from the 04_RMarkdown-Webstack/solutions folder and adapt it with the YAML settings you selected earlier today
-5. knit all the rmds (rmarkdown::render("Name-of-file.Rmd")) (you might have to adjust some paths)
+3.  copy the `_site.yml` file from the 04_RMarkdown-Webstack/solutions folder and save it in your website folder as well
+4.  adapt the `_site.yml` file from the 04_RMarkdown-Webstack/solutions folder with the YAML settings you selected earlier today
+5. use the RStudio Build tab or knitr::render_site("path-to-your-website-folder") to generate a webite with multiple pages
 
 ------------------------------------------------------------------------
 

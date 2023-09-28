@@ -27,7 +27,6 @@
 
 #### repro-package ####
 if (!requireNamespace("devtools")) install.packages("devtools")
-if (!requireNamespace("repro")) devtools::install_github("aaronpeikert/repro")
 # restart your R-Session
 
 #### Git/Make/Docker ####
@@ -52,9 +51,8 @@ usethis::use_git_config(user.name = "Jane Doe", user.email = "jane@example.org")
 # * the world
 # Or it simply doesn't work:
 # It's okay, we all have been there. Keep calm, do these three things:
-# 1. raise an issue: https://github.com/lisallreiber/R-Workshop/issues/new
+# 1. raise an issue: https://github.com/lisallreiber/r-workshop_basel23/issues/new
 # 2. Come early to the workshop:
 #   * We figure it out together.
-#   * I'll usually be there about an hour early.
 
 #### Looking forward to seeing you! ####

@@ -46,7 +46,7 @@ This markdown outlines the process in which synthetic SOEP-IS data is created.
 
 # 1. Import Data
 
-```{r eval=FALSE, include=FALSE}
+```{r import-data documentation, eval=FALSE, include=FALSE}
 # this chunks contains the code for how the synthetic data was created. All values that contain information from people were recoded to 1 unless they were missing. Only the information about the syear is retained.
 
 # choose your own soepis34 version by running the next line of code
@@ -89,7 +89,7 @@ key_labels <- rio::import(here::here("data-processed/key_labels.rds"))
 
 ## 2.1: make key_features column
 
-```{r}
+```{r gen-key_features}
 id <- c("syear", "pid", "cid", "hid", "kidpnr", 
         "fpid", "mpid", "pgpartnr", "pgpartz", 
         "k_pheadp", "k_pheadp", "k_pmum", "k_pmump")
@@ -117,32 +117,42 @@ key_features <- key_labels %>%
 
 now we create an additional dataset which is long in the sense that all variables (spices) are represented in the `key` (spice) column and all corresponding values in a `value` (correct) column.
 
-```{r}
+```{r add-reshape-graphic}
 knitr::include_graphics("https://rladiessydney.org/img/pivot_longer_data.png")
 ```
 
 the data is uniquely identifiable by: syear, pid, key
 
-```{r cache.lazy = FALSE}
-metaviz_long <- metaviz %>% 
+```{r generate metaviz_long, cache.lazy = FALSE}
+metaviz_long_path <- here::here("data-processed", "metaviz_long.rds")
+
+# Check if the file already exists
+if (!file.exists(metaviz_long_path)) {
+  # code to be executed if the file does not exist
+  cat("The file does not exist. Performing computation...\n")
+ 
+  # reshape
+  metaviz_long <- metaviz %>% 
    tidyr::pivot_longer(cols = c(-syear, -pid, -hid), names_to = "key", values_to = "value")
+  
+  # add labels from key_features generated above
+  metaviz_long <- metaviz_long %>% 
+   left_join(key_features, by = c("key" = "key_name")) %>% 
+   mutate(key_name_label = paste0(key, ": ", key_label))
+
+  # export long format
+  rio::export(metaviz_long, metaviz_long_path)
+  
+} else {
+  # Code to be executed if the file does exist
+  cat("The file already exists. Skipping computation.\n")
+  
+  rio::import(metaviz_long_path)
+}
 
 # https://stackoverflow.com/questions/39417003/long-vectors-not-supported-yet-error-in-rmd-but-not-in-r-script
 ```
 
-now we add labels from key_features generated above
-
-```{r}
-metaviz_long <- metaviz_long %>% 
-   left_join(key_features, by = c("key" = "key_name")) %>% 
-   mutate(key_name_label = paste0(key, ": ", key_label))
-```
-
-and export the format
-
-```{r}
-rio::export(metaviz_long, here::here("data-processed", "metaviz_long.rds"))
-```
 
 # Supplement
 
