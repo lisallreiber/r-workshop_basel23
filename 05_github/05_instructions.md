@@ -1,4 +1,4 @@
-# Overview of exercises for session 05_github
+# Overview of exercises for session Github & Github Pages
 
 
 <br></br>
@@ -26,7 +26,7 @@ For help, check out: [How to create a new repository?  ](https://docs.github.com
 5. Do you notice a difference in the Git tab?
 6. Mark the file and look at the "Diff" 
 7. Commit your changes and add a commit message
-8. Push the canges from your local copy to the remote one
+8. Push the changes from your local copy to the remote one
 9. Go to github
 10. Can you see the changes you made in RStudio?
 11. Edit the file once more, this time via GitHub.
@@ -41,13 +41,13 @@ For help, check out: [How to create a new repository?  ](https://docs.github.com
 
 ---
 
-In this exercise we forked the template repo of the workshop and learned about GitHub Pages.
+In this exercise we fork the template repo of the workshop and learn about GitHub Pages.
 
 
-1. Copy the R-workshop template repo into your own Github account
-2. Go to settings: pages etc
+1. Copy the R-workshop-git template repo into your own Github account
+2. Go to settings > Pages
 3. Now its time to make this project your own and practise updating it
-4. Create a new project in Posit cloud from a Github repository and provide the URL of your repo (make sure it is in your github and not the original R-Workshop template repo)
+4. Create a "new project from a Github repository" in Posit Cloud and provide the URL of your repo (make sure it is in your Github and not the original R-Workshop-git template repo)
 5. In RStudio, find and open the _site.yml file (YAML remember)? Change title in navigation bar to your own (maybe favourite food?)
 6. Knit the index.Rmd file
 7. It the RStudio Git Tab (top-right corner), add the changed files and commit them (like in the exercise before)
@@ -65,7 +65,6 @@ In this exercise we forked the template repo of the workshop and learned about G
 <br></br>
 
 **Bonus for the brave**
-
 ---
 
 1. in Posit Cloud: DELETE all files in the docs/ folder
@@ -73,4 +72,4 @@ In this exercise we forked the template repo of the workshop and learned about G
 3. Push them
 4. What do you think will happen to you website? Go check --> 
 5. Knit the index.Rmd and check the docs folder again. (don't forget to commit and push ;)  
-16. Is the website still empty?
+6. Is the website still empty?
