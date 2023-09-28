@@ -14,20 +14,6 @@ by Lisa Reiber
 
 ------------------------------------------------------------------------
 
-## Pre-workshop Prep
-
-TL;DR (friendly version below):
-
--   Make sure you have a stable internet connection
--   install the following things (R\|RStudio\|Git\|PositCloud): Go [here](https://github.com/lisallreiber/r-workshop_basel23/blob/master/00_prep.R) for details or [here](https://happygitwithr.com/workshops.html#pre-workshop-set-up) for help.
--   There will be (a reminder to make sure you prepare) coffee
-
-28th September is coming closer, and I am excited to have you. The workshop will give you a hands-on version of a reproducible website that communicates data availability with tables and visualization (available [here](https://lisallreiber.github.io/GeneAnalysis/p1_0101_describe_plots.html)).\
-However, we need you to make a few preparations so that we can start right away. Also make sure you install all the required pieces of software. We will be using Posit Cloud for the exercises during the workshop, but if something crashes or if you want to keep working with the things you learned in the workshop I would recommend installing the software prior to the workshop. To do so successfully requires some time and admin rights on your computer. If you're ready, go to and follow the steps: <https://github.com/lisallreiber/r-workshop_basel23/blob/master/00_prep.R> If you get stuck, this website will probably [help](https://happygitwithr.com/workshops.html#pre-workshop-set-up).\
-Please use your Github account to set up a free [Posit Cloud](https://rstudio.cloud/plans/free) account as well. We will use Posit Cloud for hand-on exercises during the workshop. It is a nice way to prevent us from spending hours on fixing bugs due to missing packages etc.
-
-If you arrive early (~10min) I can help with any technical problems that you have encountered.
-
 ## Schedule
 
 ### Thursday
@@ -80,6 +66,20 @@ During the workshop we will visit the different building blocks from which repro
 -   Missing content that I point to
 -   Great questions or sidebar discussions that I should consider formalizing and recording
 -   Questions that are too specific or technical to answer in real-time
+
+## Pre-workshop Prep
+
+TL;DR (friendly version below):
+
+-   Make sure you have a stable internet connection
+-   install the following things (R\|RStudio\|Git\|PositCloud): Go [here](https://github.com/lisallreiber/r-workshop_basel23/blob/master/00_prep.R) for details or [here](https://happygitwithr.com/workshops.html#pre-workshop-set-up) for help.
+
+28th September is coming closer, and I am excited to have you. The workshop will give you a hands-on version of a reproducible website that communicates data availability with tables and visualization (available [here](https://lisallreiber.github.io/GeneAnalysis/p1_0101_describe_plots.html)).\
+However, we need you to make a few preparations so that we can start right away. Make sure you install all the required pieces of software. We will be using Posit Cloud for the exercises during the workshop, but if something crashes or if you want to keep working with the things you learned in the workshop I would recommend installing the software prior to the workshop. To do so successfully requires some time and admin rights on your computer. If you're ready, go to and follow the steps: <https://github.com/lisallreiber/r-workshop_basel23/blob/master/00_prep.R> If you get stuck, this website will probably [help](https://happygitwithr.com/workshops.html#pre-workshop-set-up).\
+Please use your Github account to set up a free [Posit Cloud](https://rstudio.cloud/plans/free) account as well. We will use Posit Cloud for hand-on exercises during the workshop. It is a nice way to prevent us from spending hours on fixing bugs due to missing packages etc.
+
+If you arrive early (~10 min) I can help with any technical problems that you have encountered.
+
 
 ## Resources
 
