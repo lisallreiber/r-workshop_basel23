@@ -126,6 +126,7 @@ Here you can find a list of resources specifically to the topics we cover in the
 -   [How to create a GithubPages Website?](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site)
 -   [How to connect RStudio with Git](https://happygitwithr.com/new-github-first.html)
 -   [How to introduce yourself to Git (from R)](https://happygitwithr.com/hello-git.html)
+-   [Managing GitHub Credentials with usethis](https://usethis.r-lib.org/articles/git-credentials.html)
 
 ##### Cheatsheets
 
